@@ -48,7 +48,7 @@ done
 
 ``` shell
 sbatch fastp_20250227_BGI_sRNAseq_ISE6etc_N228-N239.sbatch
-# Submitted job  [Runtime: 12 mins. 58 secs .]
+# Submitted job 346361 [Runtime: 12 mins. 58 secs .]
 ```
 ### Output files: 
 ```sh
