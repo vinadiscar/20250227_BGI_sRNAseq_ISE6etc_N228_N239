@@ -15,7 +15,7 @@ fastqc.md
 multiqc.md
 ```
 
-## Mapping
+## II Mapping of reads to Hlo and viral genomes
 
 ### 2a. Map reads to HaeL2018 genome
 ### 2b. Map reads to viral genome
