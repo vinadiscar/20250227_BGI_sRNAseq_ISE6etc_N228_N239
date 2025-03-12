@@ -1,6 +1,5 @@
 # Aggregate Preprocessing Results with MultiQC
 - This method summarizes preprocessing results using multiQC
-- 
 ## Multiqc
 - [Multiqc](https://multiqc.info/) is a modular tool to aggregate results from bioinformatics analyses across many samples into a single report.
 - It searches a given directory for analysis logs and compiles a HTML report.
