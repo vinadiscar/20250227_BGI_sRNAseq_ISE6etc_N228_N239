@@ -10,7 +10,7 @@
 cd /work/ma-discar/20250227_BGI_sRNAseq_ISE6etc_N228_N239/preprocess/fastp
 vi fastp_20250227_BGI_sRNAseq_ISE6etc_N228-N239.sbatch
 ```
-### Script: [fastp_20250227_BGI_sRNAseq_ISE6etc_N228-N239.sbatch]
+- #### Script: [fastp_20250227_BGI_sRNAseq_ISE6etc_N228-N239.sbatch]
 
 ``` shell
 #!/bin/bash
