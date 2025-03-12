@@ -7,9 +7,9 @@
 
 ### Activate multiQC environment in Conda
 ```shell
+cd /work/ma-discar/20250227_BGI_sRNAseq_ISE6etc_N228_N239/preprocess/
 conda activate multiqc_env
 ```
-cd /work/ma-discar/20250227_BGI_sRNAseq_ISE6etc_N228_N239/preprocess/
 
 ## Run MultiQC
 
