@@ -17,7 +17,7 @@ multiqc.md
 
 ## II. Mapping of reads to Hlo and viral genomes
 
-### 2a. Map reads to HaeL2018 genome
+### 2a. Map reads to H. longicornis genome
 ```sh
 map_HaeL2018.md
 ```
