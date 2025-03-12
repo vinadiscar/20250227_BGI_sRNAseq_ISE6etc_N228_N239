@@ -20,6 +20,7 @@ multiqc.md
 ### 2a. Map reads to HaeL2018 genome
 ```sh
 map_HaeL2018.md
+```
 ### 2b. Map reads to viral genome
 ```sh
 map_HAZV.md
