@@ -22,12 +22,10 @@ multiqc_preprocess_SE_sRNAseq_N228toN239.md # updated multiQC (disregard "multiq
 
 ### 2a. Map reads to H. longicornis genome
 ```sh
-map_HaeL2018.md
+STARmapping_SE_sRNAseqHlo_to_HaeL2018genome.md
 ```
 ### 2b. Map reads to viral genome
 ```sh
-map_HAZV.md
-```
-```sh
-map_LGTV.md
+Bowtie_map_sRMAseqHlo_to_LGTVgenome.md
+BowtieMap_SE_sRNAseqHlo_to_HAZVgenome_update.md
 ```
