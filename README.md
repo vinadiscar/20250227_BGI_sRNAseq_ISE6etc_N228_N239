@@ -5,14 +5,17 @@
 ### 1a. fastp
 ```sh
 fastp.md
+fastp_SE_BGI_sRNAseq_ISE6etc_LibN228_N239.md # updated fastp (disregard "fastp.md")
 ```
 ### 2a. fastqc
 ```sh
 fastqc.md
+fastQC_SE_BGI_sRNAseq_ISE6etc_LibN228_N239.md # updated fastQC (disregard "fastqc.md")
 ```
 ### 3a multiQC
 ```sh
 multiqc.md
+multiqc_preprocess_SE_sRNAseq_N228toN239.md # updated multiQC (disregard "multiqc.md")
 ```
 
 ## II. Mapping of reads to Hlo and viral genomes
