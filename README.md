@@ -32,3 +32,9 @@ Bowtie_map_sRMAseqHlo_to_LGTVgenome_update.md (final)
 BowtieMap_SE_sRNAseqHlo_to_HAZVgenome_update.md
 BowtieMap_SE_sRNAseqHlo_to_HAZVgenome_update2.md (final)
 ```
+## VsiRNA Profiles
+- Size distribution of vsiRNAs
+- Positional distribution on the viral genomes (HAZv/LGTV)
+```sh
+07.17.2025_vsiRNA_Expression.md
+```
