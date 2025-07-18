@@ -27,5 +27,8 @@ STARmapping_SE_sRNAseqHlo_to_HaeL2018genome.md
 ### 2b. Map reads to viral genome
 ```sh
 Bowtie_map_sRMAseqHlo_to_LGTVgenome.md
+Bowtie_map_sRMAseqHlo_to_LGTVgenome_update.md (final)
+
 BowtieMap_SE_sRNAseqHlo_to_HAZVgenome_update.md
+BowtieMap_SE_sRNAseqHlo_to_HAZVgenome_update2.md (final)
 ```
