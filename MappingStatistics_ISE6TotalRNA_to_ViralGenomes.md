@@ -1,6 +1,6 @@
 # Mapping Statistics (Uniquely Maped mand Multimapped Reads) of Total RNA seq ISE6 Mapped Against LGTV or HAZV genomes
 
-### A. Mapped　Against LGTV genome
+### A. Mapped against LGTV genome
 - ##### control samples
 ```sh
 cd /work/ma-discar/20250128_BGI_hlo_ise_totalRNA/Analysis/STAR_Map_to_HAZV_LGTVgenomes_updated/STAR_Map_to_LGTVgenome
@@ -116,7 +116,7 @@ Started job on |       Jan 30 18:59:47
 ```
 
 
-### B. Mapped　Against HAZV genome 
+### B. Mapped against HAZV genome 
 
 - ##### control samples
 ```sh
