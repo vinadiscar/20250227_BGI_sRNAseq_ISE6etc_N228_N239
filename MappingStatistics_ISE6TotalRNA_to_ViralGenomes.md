@@ -1,4 +1,4 @@
-# Mapping Statistics (Uniquely Maped mand Multimapped Reads) of Total RNA seq ISE6 Mapped Against LGTV or HAZV genomes
+# Mapping Statistics of Total RNA seq ISE6 Mapped Against LGTV or HAZV genomes
 
 ### A. Mapped against LGTV genome
 - ##### control samples
