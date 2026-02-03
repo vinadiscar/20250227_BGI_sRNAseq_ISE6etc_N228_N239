@@ -1,5 +1,5 @@
 # Strand-specific vsiRNA size distribution: 5'nucleotide Analysis
-
+- Methods: 
 Mapping to viral genome (Bowtie1)
   ↓
 SAM file
