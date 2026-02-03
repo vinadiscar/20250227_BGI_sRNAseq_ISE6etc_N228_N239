@@ -11,9 +11,9 @@ vsi_counts_all.tsv   ← raw counts
 CPM normalization
   ↓
 Plots/figures
+This pipeline generates vsiRNA profiles (specific strandedness) of HAZV-infected and LGTV-infected samples. One group of figrues is for all days in general, and the other group of figures is for each time point or day. 
 
-
-## IA. HAZV-infected samples: All Days (Updated)
+## IA. HAZV-infected samples: All Days
 - include HAZV-infected samples only
 
 #### 1. Generate Input Dataframe (Extract raw reads)
@@ -142,7 +142,7 @@ for (seg in segments) {
   )
 }
 ```
-## II HAZV-Infected (Update): Each Day/Time Point
+## II HAZV-Infected: Each Day/Time Point
 #### 1. Generate Input Frame (Extract Raw Reads)
 ```sh
 conda activate samtools_env
@@ -282,7 +282,7 @@ for (day in days) {
 ```
 
 
-## II. LGTV-infected samples (Update): All Days
+## II. LGTV-infected samples: All Days
 - use only LGTV-infected samples
 
 ```sh
@@ -393,7 +393,7 @@ dev.off()
 /work/ma-discar/20250227_BGI_sRNAseq_ISE6etc_N228_N239/vsiRNA_Profiles/vsiRNA_profile_Strandspecific
 ```
 
-# II LGTV-Infected (Update): Each Day/Time Point
+# II LGTV-Infected: Each Day/Time Point
 
 ```sh
 conda activate samtools_env
