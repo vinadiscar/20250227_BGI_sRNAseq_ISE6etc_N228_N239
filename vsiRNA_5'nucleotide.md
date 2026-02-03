@@ -1,8 +1,6 @@
 # Strand-specific vsiRNA size distribution: 5'nucleotide Analysis
 
-FASTQ
-  ↓
-Mapping to HAZV genome (Bowtie1)
+Mapping to viral genome (Bowtie1)
   ↓
 SAM file
   ↓
