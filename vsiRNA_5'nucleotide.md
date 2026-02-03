@@ -11,7 +11,7 @@ vsi_counts_all.tsv   ← raw counts
 CPM normalization
   ↓
 Plots/figures
-This pipeline generates vsiRNA profiles (specific strandedness) of HAZV-infected and LGTV-infected samples. One group of figrues is for all days in general, and the other group of figures is for each time point or day. 
+- This pipeline generates vsiRNA profiles (specific strandedness) of HAZV-infected and LGTV-infected samples. One group of figrues is for all days in general, and the other group of figures is for each time point or day. 
 
 ## IA. HAZV-infected samples: All Days
 - include HAZV-infected samples only
