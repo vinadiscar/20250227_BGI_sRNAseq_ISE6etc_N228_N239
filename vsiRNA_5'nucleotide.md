@@ -6,7 +6,7 @@ SAM file
   ↓
 Count vsiRNAs (awk/samtools)
   ↓
-vsi_counts_all.tsv   ← raw counts
+vsi_counts_all.tsv   (raw counts)
   ↓
 CPM normalization
   ↓
