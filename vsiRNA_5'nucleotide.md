@@ -501,3 +501,5 @@ for (day in days) {
 }
 
 ```
+### Output files:
+- /project/okamura-lab/Vina/20250227_BGI_sRNAseq_ISE6etc_N228_N239/vsiRNA_profile_Strandspecific
