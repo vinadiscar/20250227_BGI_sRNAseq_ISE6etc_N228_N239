@@ -144,38 +144,7 @@ for (seg in segments) {
 ```
 ## II HAZV-Infected: Each Day/Time Point
 #### 1. Generate Input Frame (Extract Raw Reads)
-```sh
-conda activate samtools_env
-cd /work/ma-discar/20250227_BGI_sRNAseq_ISE6etc_N228_N239/vsiRNA_Profiles/vsiRNA_profile_Strandspecific/vsiRNA_5nucleotide_TimePoints
 
-# Declare SAM files and corresponding day
-declare -A sam_day
-sam_day=(
-  [N230]="/work/ma-discar/20250227_BGI_sRNAseq_ISE6etc_N228_N239/Mapping_to_HAZVgenome_bowtie1/mapping_result_update/HAZVgenome_N230_L1.sam"
-  [N233]="/work/ma-discar/20250227_BGI_sRNAseq_ISE6etc_N228_N239/Mapping_to_HAZVgenome_bowtie1/mapping_result_update/HAZVgenome_N233_L1.sam"
-  [N236]="/work/ma-discar/20250227_BGI_sRNAseq_ISE6etc_N228_N239/Mapping_to_HAZVgenome_bowtie1/mapping_result_update/HAZVgenome_N236_L1.sam"
-  [N239]="/work/ma-discar/20250227_BGI_sRNAseq_ISE6etc_N228_N239/Mapping_to_HAZVgenome_bowtie1/mapping_result_update/HAZVgenome_N239_L1.sam"
-)
-
-for day in "${!sam_day[@]}"; do
-    sam="${sam_day[$day]}"
-    
-    echo "Processing $day from $sam ..."
-
-    # Extract mapped reads
-    samtools view -F 4 "$sam" | \
-    awk '{
-        ref=$3; seq=$10; len=length(seq);      
-        strand = (and($2,16)) ? "-" : "+";
-        print ref "\t" seq "\t" len "\t" strand
-    }' > "HAZV_vsi_raw_${day}.tsv"
-
-    # Collapse identical sequences
-    LC_ALL=C sort "HAZV_vsi_raw_${day}.tsv" | uniq -c | \
-    awk '{print $2 "\t" $3 "\t" $4 "\t" $5 "\t" $1}' \
-    > "HAZV_vsi_counts_${day}.tsv"
-done
-```
 ```sh
 conda activate samtools_env
 cd /work/ma-discar/20250227_BGI_sRNAseq_ISE6etc_N228_N239/vsiRNA_Profiles/vsiRNA_profile_Strandspecific/vsiRNA_5nucleotide_TimePoints
@@ -203,8 +172,12 @@ for sam in "${!sam_day[@]}"; do
         print day "\t" ref "\t" seq "\t" len "\t" strand
     }' >> HAZV_vsi_raw_all_days.tsv
 done
-```
 
+# Collapse identical sequences per day and segment
+LC_ALL=C sort HAZV_vsi_raw_all_days.tsv | uniq -c | \
+awk '{print $2 "\t" $3 "\t" $4 "\t" $5 "\t" $6 "\t" $1}' \
+> HAZV_vsi_counts_all_days.tsv
+```
 ### 2. Generate Plots Per Day
 
 ```sh
