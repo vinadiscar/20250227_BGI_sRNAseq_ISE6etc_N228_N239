@@ -16,7 +16,7 @@ Plots/figures
 
 #### Feb 5, 2026 
 
-## II HAZV-Infected (Updated): Each Day/Time Point Update Version 2 
+## I. HAZV-Infected (Updated): Each Day/Time Point Update Version 2 
 - update CPM normalization method (CPM is calculated based on the number of reads mapped to the host genome)
 
 
